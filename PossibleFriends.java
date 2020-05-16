@@ -10,7 +10,7 @@ public class PossibleFriends {
 
         int T,l;    //T - number of cases
         String []matrix = new String[51];   //for input square matrix with symbols 'Y' on i,j character j of line i and i of line j 
-                                             // in case i and j are friends or 'N' if not
+                                            // in case i and j are friends or 'N' if not
                                             //The first line of the matrix corresponds to person 0, the next line to person 1...
         int []  friends = new int[51];      //  matrix to store zeroes and ones.
                                             // add 1 to place which is for i in j in friends matrix if they have a common friend k
