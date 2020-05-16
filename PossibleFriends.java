@@ -39,7 +39,7 @@ public class PossibleFriends {
                     char ch = matrix[i].charAt(j);  //check symbol in matrix
 
 
-                    if (ch == 'N'){
+                    if (ch == 'N'){ // if i and j are not friends  
                         for( int k = 0; k < l; k++) {
                             char ch1 = matrix[j].charAt(k);
                             char ch2 = matrix[i].charAt(k);
