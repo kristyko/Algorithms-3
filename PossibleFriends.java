@@ -13,7 +13,7 @@ public class PossibleFriends {
                                             // in case i and j are friends or 'N' if not
                                             //The first line of the matrix corresponds to person 0, the next line to person 1...
         int []  friends = new int[51];      //  matrix to store zeroes and ones.
-                                            // add 1 to place which is for i in j in friends matrix if they have a common friend k
+                                            // add 1 to a "place" which is for i in j in friends matrix if they have a common friend k
                                          
 
         T = scanner.nextInt();
