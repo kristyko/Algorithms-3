@@ -9,7 +9,7 @@ public class PossibleFriends {
     public static void search(){
 
         int T,l;    //T - number of cases
-        String []matrix = new String[51];   //for input square matrix with symbols 'Y' on i,j character j of line i and i of line j 
+        String []matrix = new String[51];   //for input square matrix with symbols 'Y' on j character of line i and i of line j 
                                             // in case i and j are friends or 'N' if not
                                             //The first line of the matrix corresponds to person 0, the next line to person 1...
         int []  friends = new int[51];      //  matrix to store zeroes and ones.
