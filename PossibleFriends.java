@@ -18,7 +18,6 @@ public class PossibleFriends {
 
         T = scanner.nextInt();
         String line = scanner.nextLine();
-        l = line.length();
         matrix[0] = line;  //one row of matrix, looks like: YNYY
 
         for (int t = 0; t < T; t++){
